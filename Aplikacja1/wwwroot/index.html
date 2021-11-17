@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Formularz Imię i Powtórzenia</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Uzupełnij formularz</h1>
+        <form method="POST" action="Home/Form">
+            <div class="form-group row">
+                <div class="col-xs-2">
+                    <label for="Name">Imię: </label>
+                    <input type="text" id="Name" name="Name" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-2">
+                    <label for="NumOfReplications">Liczba powtórzeń: </label>
+                    <input type="text" id="NumOfReplications" name="NumOfReplications" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-2">
+                    <input type="submit" value="Dodaj" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

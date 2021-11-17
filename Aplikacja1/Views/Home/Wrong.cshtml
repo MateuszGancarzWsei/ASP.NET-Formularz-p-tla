@@ -1,0 +1,10 @@
+﻿@model Aplikacja1.Models.FormModel
+@{
+    ViewData["Title"] = "Form";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Liczba powtórzeń poza przedziałem 1-5</h1>
+    <h4>Liczba powtórzeń: @Html.DisplayFor(model => model.NumOfReplications)</h4>
+</div>
+<a href="/index.html">Powrót</a>
